@@ -12,11 +12,18 @@ body{
     font-size: 10vw;
     font-weight: 300;
     line-height: -0.8;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 /* stylisation de button*/
 .button{
     margin: 2%;
+}
+#drop{
+    display: flex;
+    position: absolute;
+    top: -66px;
+    left: 129px;
 }
 .dropdown-item {
     display: block;
