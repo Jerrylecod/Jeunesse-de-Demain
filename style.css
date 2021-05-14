@@ -31,7 +31,7 @@ body{
 #drop{
     display: flex;
     position: absolute;
-    top: -316px;
+    top: -297px;
     left: -40px;
 }
 .dropdown-item {
@@ -64,6 +64,19 @@ body{
 /* taille de h5 */
 .h5, h5 {
     font-size: 10px;
+}
+.text-info{
+    color: #0e79ec !important;
+    text-align: center;
+    margin: 5%;
+    text-shadow: 1px 1px 1px #080808;
+    font-family: 'Satisfy', cursive;
+}
+/* paragraphe de presentation */
+.para-pre{
+    margin:0 15% ;
+    color: #83879d;
+    text-shadow: 1px 1px 1px mediumblue;
 }
 
 
