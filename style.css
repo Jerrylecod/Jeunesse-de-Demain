@@ -37,25 +37,27 @@ body{
 .dropdown-item {
     display: block;
     width: 100%;
-    padding: .25rem 1rem;
     clear: both;
     font-weight: 400;
-    color: #212529;
-    text-align: inherit;
+    text-align: end;
     text-decoration: none;
-    white-space: nowrap;
-    background-color: #1a70dfad;
+    white-space: pre;
+    background: linear-gradient(135deg,rgb(102, 128, 155),rgb(17, 82, 136),rgb(0, 174, 255));
     border: 0;
-    color: white;
+    color: rgb(245, 243, 243);
+    text-shadow: 1px 1px 1px black;
+    padding: 20px;
+    font-family: 'Courgette', cursive;
 }
 /* stylisation de l'icone du menu */
 .btn,.custom{
     color: white;
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(135deg,rgb(8, 110, 226),rgb(7, 38, 179),rgb(54, 126, 160));
     font-size: 20px;
     border-radius: 50px;
     margin-left: 55px;
     line-height: 0.5;
+    
     
     
 }
