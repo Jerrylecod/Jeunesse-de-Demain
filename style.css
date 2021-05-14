@@ -24,8 +24,16 @@ body{
 
 /* stylisation de button*/
 .button{
-    margin: 2%;
+    margin: 2%;  
+}
+
+@media screen and (min-width:572px) {
+    /* bouton menu caché */
+    #drop{
+        visibility: collapse;
+    }
     
+
 }
 /* position du bouton */
 #drop{
