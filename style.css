@@ -86,6 +86,41 @@ body{
     color: #83879d;
     text-shadow: 1px 1px 1px mediumblue;
 }
+/* Nos activités */
+#activity {
+    color: red;
+}
+.us{
+    font-size:20px;
+    color: #0e79ec;
+    text-shadow: 1px 1px 1px #433d3d;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+/* ajustement du logo garden */
+.garden{
+    width: 5rem;
+    height: 5rem;
+    margin-left: -67%;
+
+}
+/* stylisation de la carte(card) */
+.bg-custom-2{
+    color: #0e79ec !important;
+    text-align: center;
+    margin: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-shadow: 1px 1px 1px #5158bc;
+    font-family: 'Satisfy', cursive;
+    background-color: #3f3f5b;
+}
+.alert-dark {
+    color: #141619;
+    background-color: #0d0d0d;
+    border-color: #eaedef;
+}
 
 
 
