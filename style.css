@@ -88,7 +88,7 @@ body{
 }
 /* Nos activités */
 #activity {
-    color: red;
+    color: #8081c0;
 }
 .us{
     font-size:20px;
@@ -102,7 +102,7 @@ body{
 .garden{
     width: 5rem;
     height: 5rem;
-    margin-left: -67%;
+    margin: 2% auto;
 
 }
 /* stylisation de la carte(card) */
@@ -120,6 +120,24 @@ body{
     color: #141619;
     background-color: #0d0d0d;
     border-color: #eaedef;
+}
+/* stylisation du paragraphe cause */
+#cause{
+    color: white;
+}
+/* stylisation de la carte des logos */
+#card-logo{
+    height: 75%;
+    width: 11rem;
+    margin: 2rem;
+    color: green;
+    background-color: #d0cddb;
+}
+/* redimensionnement des logos */
+#web,#echo,#law{
+    height: 10rem;
+    width: 10rem;
+
 }
 
 
