@@ -102,19 +102,18 @@ body{
 .garden{
     width: 5rem;
     height: 5rem;
-    margin: 2% auto;
+    
 
 }
 /* stylisation de la carte(card) */
 .bg-custom-2{
     color: #0e79ec !important;
     text-align: center;
-    margin: 5%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 5%; 
     text-shadow: 1px 1px 1px #5158bc;
     font-family: 'Satisfy', cursive;
     background-color: #3f3f5b;
+    width: 90%;
 }
 .alert-dark {
     color: #141619;
@@ -124,21 +123,52 @@ body{
 /* stylisation du paragraphe cause */
 #cause{
     color: white;
+    font-family: 'Crimson Text', serif;
+    margin: 2%;
+    font-size: 22px;
 }
 /* stylisation de la carte des logos */
 #card-logo{
     height: 75%;
     width: 11rem;
-    margin: 2rem;
+    margin: 3rem;
     color: green;
     background-color: #d0cddb;
 }
 /* redimensionnement des logos */
-#web,#echo,#law{
+#web,#echo{
     height: 10rem;
     width: 10rem;
+}
+#law{
+    height: 9rem;
+    width: 10rem;
+}
+/* couleur de la balise détails */
+.coloring{
+    color: #c0bb90;
 
 }
+/* stylisation du label */
+#lab{
+    margin: 1rem 0;
+}
+/* stylisation du paragraphe analyse */
+.analyse{
+    color: #3f69b7;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin: 4% 8%;
+}
+/* taille des emoticone */
+#emo{
+    width: 50%;
+    height: 50%;
+    margin: 5% 20%;
+    border-radius: 18px;
+}
+
+
 
 
 
