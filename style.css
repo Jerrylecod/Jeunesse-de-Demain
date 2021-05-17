@@ -146,7 +146,7 @@ body{
 }
 /* couleur de la balise détails */
 .coloring{
-    color: #c0bb90;
+    color: #6bcd57;
 
 }
 /* stylisation du label */
@@ -167,7 +167,17 @@ body{
     margin: 5% 20%;
     border-radius: 18px;
 }
+/* stylisation du paragraphe prise en charge */
+.text-custom{
+    color: #f5eded;
+    font-size: 1em;
+    padding: 6%;
+    background-color: #002080;
+    margin: 12% auto;
+    border: 4mm ridge #747da2;
+    
 
+}
 
 
 
