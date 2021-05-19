@@ -130,11 +130,12 @@ body{
 /* stylisation de la carte des logos */
 #card-logo{
     height: 75%;
-    width: 11rem;
+    width: 64%;
     margin: 3rem;
     color: green;
     background-color: #d0cddb;
 }
+
 /* redimensionnement des logos */
 #web,#echo{
     height: 10rem;
@@ -178,8 +179,44 @@ body{
     
 
 }
+/* logo d'entreprise caché a partir de 768px => 1400px */
+@media screen and (min-width: 768px) and (max-width:1400px) {
+    .hand{
+    width: 80%;
+    height: 80%;
+    justify-content:center;
+    margin: 1rem 2rem;
+    
+    }
+    #law,#web,#echo{
+        visibility:hidden;
+    }
+    .card-logo{
+        height: 75%;
+        width: 64%;
+        color: green;
+        background-color: #374263;
+        margin: 5% auto;
+}
+/* image  caché a partir de 358 px => 768px  */
+@media screen and (min-width: 358px) and (max-width: 768px){
+    .hand,.hearth{
+        visibility:hidden;
+    }      
+}
+/* image de coeur redimensionnée */
+.hearth{
+    width: 50%;
+    height: 50%;
+}
+/* paragraphe happiness stylisé */
+.happiness{
+    color: black;
+    font-family: 'Satisfy', cursive;
+}
 
 
 
 
 
+}
