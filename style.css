@@ -2,10 +2,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 /* couleur du body */
 body{
     background-color:black; 
+    
 }
 /* titre responsive (h1) */
 .display-4 {
@@ -77,7 +79,7 @@ body{
 
 /* paragraphe de presentation */
 .para-pre{
-    margin:0 15% ;
+    margin: 0 20%;
     color: #83879d;
     text-shadow: 1px 1px 1px mediumblue;
 }
@@ -87,7 +89,7 @@ body{
 }
 .us{
     font-size:20px;
-    color: #0e79ec;
+    color: #558adc;
     text-shadow: 1px 1px 1px #433d3d;
     margin-top: 5px;
     text-align: center;
@@ -110,11 +112,7 @@ body{
     background-color: #3f3f5b;
     width: 90%;
 }
-.alert-dark {
-    color: #141619;
-    background-color: #0d0d0d;
-    border-color: #eaedef;
-}
+
 /* stylisation du paragraphe cause */
 #cause{
     color: white;
@@ -124,16 +122,21 @@ body{
 }
 /* stylisation de la carte des logos */
 #card-logo{
-    height: 75%;
-    width: 64%;
+    height: 47em;
+    width: 84%;
     margin: 10% auto;
-    background-color: #d0cddb;
+    background:linear-gradient(135deg,rgb(109, 109, 141),rgb(66, 66, 151),rgb(20, 20, 206)) ;
+    border-radius:20px;
 }
 
 /* redimensionnement des logos */
-#web,#echo{
+#web{
     height: 10rem;
     width: 10rem;
+}
+#echo{
+    height: 2em;
+    width: 1em;
 }
 #law{
     height: 9rem;
@@ -197,6 +200,40 @@ body{
         border-radius: 58%;
         margin-top: 5%;
     }
+    .who{
+        color: #1baad8;
+        font-family: 'Goblin One', cursive;
+        margin: 5% 30%;
+        font-size:1em;
+        text-shadow: 1px 1px 1px antiquewhite;
+    }
+    #card-logo {
+        height: 50em;
+        width: 17em;
+        /* margin: 10% auto; */
+        background: linear-gradient(135deg,rgb(142, 142, 163),rgb(154, 154, 172),rgb(171, 171, 192));
+        border-radius: 20px;
+        margin-left: -4%;
+        border: 4px solid #f9f8f7;
+    }
+    .us {
+        font-size: 20px;
+        color: #0f61e2;
+        text-shadow: 1px 1px 1px #1e1c1c;
+        margin-top: 5px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+    }
+    .help {
+        font-size:2em;
+        color: burlywood;
+    }
+    .relation{
+        color: blue;
+        font-family: 'Lobster', cursive;
+        margin-left: 33%;
+        padding: 5%;
+    }
 }
 /* image de coeur redimensionnée */
 .hearth{
@@ -243,13 +280,30 @@ body{
         height: auto;
         margin: 5%;
         border-radius: 70%;
-    }    
+    }  
+    .us{
+        color: purple;
+        font-size: 2em;
+    } 
+    /* style du titre qui sommes nous */
+    .who{
+        color: #929dd7;
+        text-align: center;
+        font-family: 'Pattaya', sans-serif;
+        margin: 5% auto;
+        text-shadow: 1px 1px 1px black;
+    } 
+    #cause{
+        font-size: 2em;
+    }
+    
 }
-/* image  caché a partir de 358 px => 444px  */
-@media screen and (min-width: 358px) and (max-width: 444px){
+/* media queries de 358 px => 618px  */
+@media screen and (min-width: 358px) and (max-width: 618px){
     .hearth{
         visibility:hidden;
     }
+    
     .text{
         text-shadow: 1px 1px 1px #d0c6c6;
         position: absolute;
@@ -263,32 +317,57 @@ body{
         display: list-item;
         cursor: pointer;
         margin-left: 9%;
+        color: #0e64d2;
     }
     .img-fluid {
         max-width: 100%;
         height: 45%;
         border-radius: 58%;
         margin-top: 5%;
+        padding: 5%;
     }
-    #web, #echo {
-    height: 10rem;
-    width: 10rem;
+    #web, #echo,#law {
+        height: 7em;
+        width: 8em;
+        /* margin-left: 5% 20%; */
+        margin-left: 20%;
+        position: relative;
+        bottom: 15%;
+        right: -4%;
     
     }
     .us {
-        font-size: 20px;
-        color: #f4da08;
-        text-shadow: 1px 1px 1px #433d3d;
-        margin-top: 5px;
+        font-size: 16px;
+        color: #1e44d9;
+        text-shadow: 1px 1px 1px #887171;
+        margin-top: 36px;
         text-align: center;
         font-family: 'Lobster', cursive;
+        line-height: 1em;
+        padding: 7%;
+            padding-bottom: 7%;
+        padding-bottom: 25%;
     }
+    .text-pro{
+        color: #babad5;
+        padding-top: 6%;
+    }
+    .help,.trait{
+        visibility: hidden;
+    }
+    .relation{
+        color: #1e44d7;
+        font-family: 'Lobster', cursive;
+        margin-left: 20%;
+        padding-top: 2%;
+        font-size: x-large;
+    }
+    
 }
-/* image de coeur redimensionnée
-.hearth{
-    width: 50%;
-    height: 50%;
-} */
+/* media queries 618px */
+@media screen and (min-width:618px) {
+
+}
 
 
 
