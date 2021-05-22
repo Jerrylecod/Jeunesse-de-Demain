@@ -125,8 +125,8 @@ body{
     height: 47em;
     width: 84%;
     margin: 10% auto;
-    background:linear-gradient(135deg,rgb(109, 109, 141),rgb(66, 66, 151),rgb(20, 20, 206)) ;
-    border-radius:20px;
+    background: linear-gradient(135deg,rgb(187, 52, 153),rgb(82, 89, 149),rgb(135, 135, 136));
+    border-radius: 20px;
 }
 
 /* redimensionnement des logos */
@@ -249,6 +249,7 @@ body{
         margin: 1rem 2rem;
         
     }
+    /* image caché */
     #law,#web,#echo{
         visibility:hidden;
     }
@@ -279,11 +280,12 @@ body{
         max-width: 100%;
         height: auto;
         margin: 5%;
-        border-radius: 70%;
+        border-radius: 8%;
     }  
     .us{
-        color: purple;
+        color: #cecdd1;
         font-size: 2em;
+        text-shadow: 1px 1px 1px black;
     } 
     /* style du titre qui sommes nous */
     .who{
@@ -296,10 +298,16 @@ body{
     #cause{
         font-size: 2em;
     }
+    .help{
+        font-size: 2em;
+        color: red;
+        text-shadow: 1px 1px 1px #32b6cc;
+        font-family: 'Goblin One', cursive;
+    }
     
 }
 /* media queries de 358 px => 618px  */
-@media screen and (min-width: 358px) and (max-width: 618px){
+@media screen and (min-width: 358px) and (max-width: 768px){
     .hearth{
         visibility:hidden;
     }
@@ -364,10 +372,7 @@ body{
     }
     
 }
-/* media queries 618px */
-@media screen and (min-width:618px) {
 
-}
 
 
 
