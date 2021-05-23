@@ -28,6 +28,9 @@ body{
 .button{
     margin: 2%;  
 }
+#echo {
+    margin-top: -37%;
+}
 
 @media screen and (min-width:572px) {
     /* bouton menu caché */
@@ -80,12 +83,18 @@ body{
 /* paragraphe de presentation */
 .para-pre{
     margin: 0 20%;
-    color: #83879d;
-    text-shadow: 1px 1px 1px mediumblue;
+    color: #d9d7e3;
+    text-shadow: 1px 1px 1px #aa83b3;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
 }
 /* Nos activités */
-#activity {
-    color: #8081c0;
+.relation-act{
+    color: #2224d4;
+    margin: 5%;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-decoration: underline;
 }
 .us{
     font-size:20px;
@@ -120,28 +129,13 @@ body{
     margin: 2%;
     font-size: 22px;
 }
-/* stylisation de la carte des logos */
-#card-logo{
-    height: 47em;
-    width: 84%;
-    margin: 10% auto;
-    background: linear-gradient(135deg,rgb(187, 52, 153),rgb(82, 89, 149),rgb(135, 135, 136));
-    border-radius: 20px;
-}
 
-/* redimensionnement des logos */
-#web{
-    height: 10rem;
-    width: 10rem;
-}
-#echo{
-    height: 2em;
-    width: 1em;
-}
-#law{
-    height: 9rem;
-    width: 10rem;
-}
+
+
+
+
+
+
 /* couleur de la balise détails */
 .coloring{
     color: #6bcd57;
@@ -200,13 +194,13 @@ body{
         border-radius: 58%;
         margin-top: 5%;
     }
-    @media screen and (min-width:1029px){
-        .img-fluid .hand{
-            width: 50%;
-            height: 27%;
-            margin: 1rem 2rem;
-        }
-    } 
+    .text-pro{
+        color: #d81a1a;
+        text-transform: capitalize;
+        margin-top: 5%;
+        text-decoration: underline;
+    }
+    
     .who{
         color: #1e19d2;
         font-family: 'Goblin One', cursive;
@@ -214,11 +208,11 @@ body{
         font-size: 1em;
         text-shadow: 1px 1px 1px #e1d9cd;
         padding: 5%;
-        background-color: #d6d5dc;
+        background: linear-gradient(135deg,#d4caca,#745a5a,#987e7e);
         border-radius: 50%;
     }
     #card-logo {
-        height: 50em;
+        height: 60em;
         width: 17em;
         margin: 10% auto;
         background: linear-gradient(135deg,rgb(79, 79, 108),rgb(178, 178, 211),rgb(118, 118, 149));
@@ -228,30 +222,52 @@ body{
     }
     .us {
         font-size: 20px;
-        color: #0f61e2;
-        text-shadow: 1px 1px 1px #1e1c1c;
+        color: #0e41ba;
+        text-shadow: 1px 1px 1px #a69696;
         margin-top: 5px;
         text-align: center;
-        font-family: 'Lobster', cursive;
+        padding: 5%;
+        text-transform: capitalize;
+        font-family: 'Dancing Script', cursive;
     }
     .help {
-        font-size:2em;
-        color: burlywood;
+        font-size: 137%;
+        color: #4568d0;
+        text-shadow: 1px 1px 1px indigo;
+        margin-top: 5%;
     }
     .relation{
         color: blue;
         font-family: 'Lobster', cursive;
         margin-left: 33%;
         padding: 5%;
+        font-size: 2em;
+    }
+    #relation-hearth{
+        color: #5d9f74;
+        font-size: 112%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px black;
+    }
+    .line{
+        color:white;
     }
 }
-/* image de coeur redimensionnée */
+/* image de coeur media queries taille min 991px */
+@media screen and (min-width:991px)and(max-width:1000px) {
+    .hearth{
+        width: 50%;
+        height: 50%;
+        padding: 5%;
+    }
+}
 .hearth{
-    width: 50%;
-    height: 50%;
+    width: 41%;
+    height: 39%;
+    border-radius: 70%;
 }
 /* media queries 1280px */
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1280px) and (max-width:1800px){
     .us {
         color: #cecdd1;
         font-size: 2.5em;
@@ -276,6 +292,7 @@ body{
         width: 50%;
         height: 27%;
         margin: 1rem 2rem;
+        border-radius: 20px;
         
     }
     /* image caché */
@@ -297,7 +314,7 @@ body{
         font-family: 'Pattaya', sans-serif;
         color: rgb(249, 245, 8);
     }
-    .img-thumbnail {
+    .mount{
         padding: .25rem; 
         background-color: #fff;
         border: 4px solid #0a0a0b;
@@ -305,14 +322,9 @@ body{
         max-width: 100%;
         height: auto;
         margin: 5% auto; 
+        position: fixed;
     }
-    /* .img-fluid,.hand {
-        max-width: 100%;
-        height: auto;
-        margin: 5%;
-        border-radius: 66%;
-        padding: 8%; */
-    /* }   */
+    
     .us{
         color: #cecdd1;
         font-size: 1.5em;
@@ -340,7 +352,7 @@ body{
     }
     .relation{
         color: #1520c6;
-        margin-left: 20%;
+        margin-left: 37%;
         font-family: 'Pattaya', sans-serif;
         padding: 5%;
         font-size: 2em;
@@ -350,7 +362,6 @@ body{
         color: black;
         font-family: 'Pacifico', cursive;
         text-transform: full-width;
-        background-color: black;
         text-shadow: 1px 1px 1px snow;
         font-weight: inherit;
 
@@ -363,6 +374,47 @@ body{
         border-radius: 20px;
     }
     
+}
+/* media querie taille min 1200px */
+@media screen and (min-width:1200px) {
+    .img-fluid .hand {
+        height: 36%;
+        margin: 5%;
+        border-radius: 58%;
+        padding: 8%;
+        width: 43%;
+    }
+    .relation{
+        color: #1e44d7;
+        font-family: 'Lobster', cursive;
+        margin-left: 20%;
+        padding-top: 2%;
+        font-size: x-large;
+    }
+    #relation-hearth{
+        color: #781eb6;
+        font-size: 2em;
+        text-shadow: 1px 1px 1px blue;
+        margin: 10%;
+    }
+    .img-hearth{
+        width: 100%;
+    }
+    .who {
+        color: #1937d7;
+        text-align: center;
+        font-family: 'Pattaya', sans-serif;
+        margin: 5% auto;
+        text-shadow: 1px 1px 1px #baa4a4;
+        font-size: 3em;
+    }
+    .para-pre {
+        margin: 0 20%;
+        color: #e0e2ed;
+        text-shadow: 1px 1px 1px mediumblue;
+        font-family: 'Dancing Script', cursive;
+        padding: 8%;
+        font-size: 2em;
 }
 /* media queries de 358 px => 618px  */
 @media screen and (min-width: 358px) and (max-width: 768px){
