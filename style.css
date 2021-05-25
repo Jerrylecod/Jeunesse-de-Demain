@@ -6,7 +6,7 @@
 }
 /* couleur du body */
 body{
-    background-color:black; 
+    background: linear-gradient(135deg,	#4682B4,#B0E0E6, 	#B0C4DE);
     
 }
 /* titre responsive (h1) */
@@ -83,18 +83,22 @@ body{
 /* paragraphe de presentation */
 .para-pre{
     margin: 0 20%;
-    color: #d9d7e3;
-    text-shadow: 1px 1px 1px #aa83b3;
-    font-family: 'Lobster', cursive;
+    color: #280ee0;
+    text-shadow: 1px 1px 1px #cdcbd6;
+    font-family: "roboto_regular",Arial,sans-serif;
     font-size: 18px;
 }
+
 /* Nos activités */
 .relation-act{
-    color: #2224d4;
+    color: #6f90c5;
     margin: 5%;
-    font-family: 'Lobster', cursive;
     text-align: center;
     text-decoration: underline;
+    font-family: "roboto_light",Arial,sans-serif;
+    text-shadow: 1px 1px 1px #0c0c0d;
+    text-transform: uppercase;
+    font-style: oblique;
 }
 .us{
     font-size:20px;
@@ -138,7 +142,7 @@ body{
 
 /* couleur de la balise détails */
 .coloring{
-    color: #6bcd57;
+    color: #6057cd;
 
 }
 /* stylisation du label */
@@ -169,6 +173,9 @@ body{
     border: 4mm ridge #747da2;
     
 }
+#earth{
+    border-radius: 20%;
+}
 /* image  caché a partir de 358 px => 768px  */
 @media screen and (min-width: 358px) and (max-width: 768px){
     .hearth{
@@ -194,63 +201,69 @@ body{
         border-radius: 58%;
         margin-top: 5%;
     }
+    
     .text-pro{
-        color: #d81a1a;
+        color: #1aabd8;
         text-transform: capitalize;
         margin-top: 5%;
         text-decoration: underline;
     }
     
     .who{
-        color: #1e19d2;
+        color: #d6d6df;
         font-family: 'Goblin One', cursive;
         margin: 5% 27%;
         font-size: 1em;
-        text-shadow: 1px 1px 1px #e1d9cd;
+        text-shadow: 1px 1px 1px #232322;
         padding: 5%;
-        background: linear-gradient(135deg,#d4caca,#745a5a,#987e7e);
+        background: linear-gradient(135deg,#0e99ec,#292bcc,#2dc1ac);
         border-radius: 50%;
     }
     #card-logo {
-        height: 60em;
-        width: 17em;
+        
+        max-width: 60%;
         margin: 10% auto;
-        background: linear-gradient(135deg,rgb(79, 79, 108),rgb(178, 178, 211),rgb(118, 118, 149));
+        background: linear-gradient(135deg,rgb(92, 93, 187),rgb(45, 118, 216),rgb(146, 146, 233));
         border-radius: 20px;
-        margin-left: -4%;
+        margin-left: 20%;
         border: 4px solid #f9f8f7;
     }
     .us {
-        font-size: 20px;
-        color: #0e41ba;
-        text-shadow: 1px 1px 1px #a69696;
+        color: #f1f3f6;
+        text-shadow: 1px 1px 1px #030d25;
         margin-top: 5px;
         text-align: center;
         padding: 5%;
         text-transform: capitalize;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Liberation Sans', sans-serif;
+        font-style: oblique;
     }
     .help {
         font-size: 137%;
-        color: #4568d0;
-        text-shadow: 1px 1px 1px indigo;
+        color: #5071cf;
+        text-shadow: 1px 1px 1px #080808;
         margin-top: 5%;
     }
     .relation{
         color: blue;
         font-family: 'Lobster', cursive;
-        margin-left: 33%;
+        margin-left: 17%;
         padding: 5%;
         font-size: 2em;
+        text-shadow: 1px 1px 1px floralwhite;
     }
     #relation-hearth{
         color: #5d9f74;
-        font-size: 112%;
+        font-size: 1rem;
         text-transform: uppercase;
         text-shadow: 1px 1px 1px black;
+        font-family: "roboto_light",Arial,sans-serif;
     }
     .line{
         color:white;
+    }
+    .img-fluid .handle{
+        border-radius:20px;
     }
 }
 /* image de coeur media queries taille min 991px */
@@ -333,11 +346,13 @@ body{
     } 
     /* style du titre qui sommes nous */
     .who{
-        color: #929dd7;
+        color: #1953c3;
         text-align: center;
         font-family: 'Pattaya', sans-serif;
         margin: 5% auto;
-        text-shadow: 1px 1px 1px black;
+        text-shadow: 1px 1px 1px #000000;
+        text-transform: capitalize;
+        font-size: 3rem;
     } 
     #cause{
         font-size: 2em;
@@ -351,11 +366,12 @@ body{
         
     }
     .relation{
-        color: #1520c6;
+        color: #d3d4dc;
         margin-left: 37%;
         font-family: 'Pattaya', sans-serif;
         padding: 5%;
         font-size: 2em;
+        text-shadow: 1px 1px 1px black;
     }
     .text-pro{
         padding: 5%;
@@ -370,7 +386,7 @@ body{
         height: 47em;
         width: 84%;
         margin: 10% auto;
-        background: linear-gradient(135deg,rgb(69, 52, 187),rgb(107, 112, 155),rgb(8, 8, 55));
+        background: linear-gradient(135deg,rgb(69, 52, 187),rgb(65, 80, 185),rgb(26, 26, 210));
         border-radius: 20px;
     }
     
