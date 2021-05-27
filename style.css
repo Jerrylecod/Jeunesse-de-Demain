@@ -28,9 +28,8 @@ body{
 .button{
     margin: 2%;  
 }
-#echo {
-    margin-top: -37%;
-}
+
+
 
 @media screen and (min-width:572px) {
     /* bouton menu caché */
@@ -177,9 +176,10 @@ body{
 #earth{
     border-radius: 20%;
     height: auto;
+    width: -moz-available;
 }
-/* image  caché a partir de 358 px => 768px  */
-@media screen and (min-width: 358px) and (max-width: 768px){
+/* media queries taille mobile */
+@media screen and (min-width: 320px) and (max-width: 768px){
     .hearth{
         visibility:hidden;
     }
@@ -198,7 +198,7 @@ body{
         margin-left: 9%;
     }
     .img-fluid .hand {
-        max-width: 100%;
+        max-width: 768px;
         height: 45%;
         border-radius: 58%;
         margin-top: 5%;
@@ -277,12 +277,15 @@ body{
     }
 }
 .hearth{
-    width: 41%;
-    height: 39%;
+    width: 15vw;
+    height: 15vh;
     border-radius: 70%;
+    position: absolute;
+    bottom: 2%;
+    right: 6%;
 }
 /* media queries 1280px */
-@media screen and (min-width:1280px) and (max-width:1800px){
+@media screen and (min-width:1281px) and (max-width:1800px){
     .us {
         color: #cecdd1;
         font-size: 2.5em;
@@ -290,6 +293,14 @@ body{
         padding: 5%;
         position: absolute;
         top: 16%;
+    }
+    .para-pre {
+        color: #6570b0;
+        text-shadow: 1px 1px 1px #a0a0b063;
+        font-family: 'Dancing Script', cursive;
+        padding: 0%;
+        font-size: 2em;
+        text-transform: full-size-kana;
     }
     .img-fluid, .hand {
         height: 27%;
@@ -308,6 +319,9 @@ body{
         text-transform: uppercase;
         font-style: oblique;
         font-size: 3em;
+    }
+    #card-logo {
+        background:linear-gradient(135deg,rgb(14, 149, 212),rgb(78, 117, 149),rgb(37, 74, 117));
     }
     
     
@@ -363,7 +377,7 @@ body{
         text-align: center;
         font-family: 'Pattaya', sans-serif;
         margin: 5% auto;
-        text-shadow: 1px 1px 1px #000000;
+        text-shadow: 1px 1px 1px #e5dbdb;
         text-transform: capitalize;
         font-size: 3rem;
     } 
@@ -379,7 +393,7 @@ body{
         
     }
     .relation{
-        color: #192fdb;
+        color: #1980db;
         text-align: center;
         font-family: 'Pattaya', sans-serif;
         padding: 5%;
@@ -404,111 +418,11 @@ body{
         height: 47em;
         width: 84%;
         margin: 10% auto;
-        background: linear-gradient(135deg,rgb(69, 52, 187),rgb(65, 80, 185),rgb(26, 26, 210));
+        background: linear-gradient(135deg,rgb(91, 131, 165),rgb(65, 123, 185),rgb(155, 185, 223));
         border-radius: 20px;
     }
     
 }
-/* media querie taille min 1200px */
-@media screen and (min-width:1200px) {
-    .img-fluid .hand {
-        height: 36%;
-        margin: 5%;
-        border-radius: 58%;
-        padding: 8%;
-        width: 43%;
-    }
-    .relation{
-        color: #1e44d7;
-        font-family: 'Goblin One', cursive;
-        text-align: center;
-        padding-top: 5%;
-        
-    }
-    #relation-hearth{
-        color: #d1d3e0;
-        font-size: 2em;
-        text-shadow: 1px 1px 1px blue;
-        margin: 10%;
-    }
-    .img-hearth{
-        width: 100%;
-    }
-    .who {
-        color: #1937d7;
-        text-align: center;
-        font-family: 'Pattaya', sans-serif;
-        margin: 5% auto;
-        text-shadow: 1px 1px 1px #baa4a4;
-        font-size: 3em;
-    }
-    .para-pre {
-        margin: 0 20%;
-        color: #6570b0;
-        text-shadow: 1px 1px 1px #bebedc;
-        font-family: 'Dancing Script', cursive;
-        padding: 8%;
-        font-size: 2em;
-    }
-}
-/* media queries de 358 px => 618px  */
-@media screen and (min-width: 358px) and (max-width: 768px){
-    .hearth{
-        visibility:hidden;
-    }
-    
-    .text{
-        text-shadow: 1px 1px 1px #d0c6c6;
-        position: absolute;
-        font-size: 99%;
-        top: 15%;
-        font-family: 'Goblin One', cursive;
-        color: rgb(16, 150, 247);
-        margin: 5% 2%;
-    }
-    summary {
-        display: list-item;
-        cursor: pointer;
-        margin-left: 9%;
-        color: #0e64d2;
-    }
-    
-    
-    
-    
-    
-    .us {
-        font-size: 16px;
-        color: #e8e9f0;
-        text-shadow: 1px 1px 1px #887171;
-        margin-top: 36px;
-        text-align: center;
-        font-family: 'Lobster', cursive;
-        line-height: 1em;
-        padding: 7%;
-            padding-bottom: 7%;
-        padding-bottom: 25%;
-    }
-    .text-pro{
-        color: #babad5;
-        padding-top: 6%;
-    }
-    .help,.trait{
-        visibility: hidden;
-    }
-    .relation{
-        color: #1e9ad7;
-        font-family: 'Lobster', cursive;
-        text-align: center;
-        padding-top: 2%;
-        font-size:3rem;
-    }
-    
-}
-
-
-
-
 
 
 
