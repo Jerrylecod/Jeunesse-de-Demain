@@ -1,6 +1,58 @@
-
-.title-form{
+body{
+    background: linear-gradient(135deg,#ca1f1f,#b97e7e,#c71414);
+}
+.header,.title-form,.box,.lab{
+    margin: 5%;
+    padding: 5%;
+}
+.title-form,#form-select{
     color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.header{
+    background: linear-gradient(135deg,rgb(32, 112, 177),rgb(60, 161, 192),rgb(48, 109, 138));
+    margin: 5%;
+    padding: 5%;
+}
+.title-form{
+    border-radius: 50%;
     text-align: center;
-    background-color:blue;
+    background: linear-gradient(135deg,#ca1f1f,#b97e7e,#c71414);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 4px 1px black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 183, 255);
+    border-radius: 20px;
+    background: linear-gradient(135deg,rgb(137, 189, 219),rgb(62, 154, 177),rgb(16, 71, 85));
+    box-shadow: -2px -2px 0px rgb(246, 245, 245);
+}
+.lab{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 2px 11px black;    
+}
+#form-select{
+    display: flex;
+    margin: 2% auto;
+    padding: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(135deg,rgb(197, 195, 215),rgb(60, 118, 133),rgb(188, 192, 204));
+    font-style: italic;
+    text-align: center;
+    
+}
+.selected{
+    display:flex;
+    flex-direction:column;
+    flex-grow: 20px;
+    color: blue;
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(135deg,rgb(90, 152, 211),rgb(58, 115, 168),rgb(16, 190, 196));
 }

@@ -267,15 +267,7 @@ body{
     .img-fluid .handle{
         border-radius:20px;
     }
-    /* loi */
-    .law{
-        max-width: 100%;
-        max-height: auto;
-        background:linear-gradient(135deg,rgb(58, 100, 148),rgb(9, 69, 165),rgb(38, 64, 105));
-        text-align: center;
-        margin: 5%;
-        padding: 5%;
-    }
+    
 }
 /* image de coeur media queries taille min 991px */
 @media screen and (min-width:991px)and(max-width:1000px) {
