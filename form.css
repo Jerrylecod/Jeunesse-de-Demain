@@ -1,7 +1,8 @@
 body{
     background: linear-gradient(135deg,#ca1f1f,#b97e7e,#c71414);
 }
-.header,.title-form,.box,.lab{
+.header,.title-form,.box,.lab,.emotion,
+input{ 
     margin: 5%;
     padding: 5%;
 }
@@ -49,10 +50,36 @@ body{
 .selected{
     display:flex;
     flex-direction:column;
-    flex-grow: 20px;
     color: blue;
     text-shadow: 1px 1px 1px white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: linear-gradient(135deg,rgb(90, 152, 211),rgb(58, 115, 168),rgb(16, 190, 196));
 }
+.emotion{
+    display:flex;
+    flex-direction:column;
+}
+.para-father{
+    color: white;
+    text-shadow: 1px 3px 1px #1e46a4;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.one-p{
+    color: green;
+}
+.two-p{
+    color: orange;
+} 
+.three-p{
+    color: rgb(240, 21, 13);
+}
+.one-p,.two-p,.three-p{
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 1px 1px 1px black;
+}     
