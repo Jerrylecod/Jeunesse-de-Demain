@@ -46,19 +46,38 @@
 </head>
 
 <body>
-    <header class="header">
-    <h1 class="title-form">Formulaire d'adhesion</h1>
-        <div class="box">
-            <label class="lab" for="form-select">Choisissez une situation :</label>
-            <div class="select">
-                <select id="form-select">
-                    <option class="selected" value="Option 1">Je travail</option>
-                    <option class="selected" value="Option 2">Je suis sans emploi</option>
-                    <option class="selected" value="Option 3">Je suis étudiant</option>
-                </select>
+    <form action="#" id="form-selector">
+        <header class="header">
+            <h1 class="title-form">Formulaire d'adhesion</h1>
+            <div class="box">
+                <label class="lab" for="form-select">Choisissez une situation :</label>
+                <div class="select">
+                    <select id="form-select">
+                        <option class="selected" value="Option 1">Je travail</option>
+                        <option class="selected" value="Option 2">Je suis sans emploi</option>
+                        <option class="selected" value="Option 3">Je suis étudiant</option>
+                    </select>
+                    <div class="emotion">
+                        <div class="para-father">
+                            <p class="para-rate">A quel taux estimez vous votre bien-etre actuellement ?</p>
+                        </div>
+                        <div class="div-inp">
+
+                            <label for="percentage-1"> &#128555  <span class="one-p">Entre 0%-25%</span></label>
+                            <input type="radio" name="percentage" class="percentage" id="percentage-1" checked>
+
+                            <label for="percentage-2">&#128555 <span class="two-p">Entre 25%-50%</span></label>
+                            <input type="radio" name="percentage" class="percentage" id="percentage-2">
+
+                            <label for="percentage-3">&#128540<span class="three-p">Entre 50%-100%</span></label>
+                            <input type="radio" name="percentage" class="percentage" id="percentage-3">
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
+    </form>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
