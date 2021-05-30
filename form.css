@@ -2,16 +2,23 @@ body{
     background: linear-gradient(135deg,#ca1f1f,#b97e7e,#c71414);
 }
 .header,.title-form,.box,.lab,.emotion,
-input{ 
+input,#objectif
+#contact,.contact{ 
     margin: 5%;
     padding: 5%;
+}
+.contact{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 4px 1px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .title-form,#form-select{
     color: white;
     text-shadow: 1px 1px 1px black;
 }
 .header{
-    background: linear-gradient(135deg,rgb(32, 112, 177),rgb(60, 161, 192),rgb(48, 109, 138));
+    background: linear-gradient(135deg,rgb(32, 155, 177),rgb(60, 161, 192),rgb(48, 109, 138));
     margin: 5%;
     padding: 5%;
 }
@@ -82,4 +89,33 @@ input{
     text-align: center;
     font-family: cursive;
     text-shadow: 1px 1px 1px black;
-}     
+}
+.area{
+    background:linear-gradient(135deg,rgb(66, 122, 144),rgb(61, 115, 129),rgb(69, 148, 172));
+    margin:5%; 
+    padding: 6%;
+}
+#lab-area{
+    display: flex;
+    flex-direction: row;
+    background:linear-gradient(135deg,rgb(189, 74, 74),rgb(206, 123, 123),rgb(143, 56, 56));
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4%;
+    padding:6% ;
+} 
+#objectif{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+#contact{
+        background: linear-gradient(135deg,#ca1f1f,#b97e7e,#c71414);
+}
+.lab-name{
+    background: linear-gradient(135deg,rgb(137, 145, 147),rgb(60, 161, 192),rgb(176, 189, 195));
+    margin: 10%;
+    padding: 4%;
+    border-radius: 50px;
+}  
