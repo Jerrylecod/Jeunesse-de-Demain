@@ -197,6 +197,10 @@ body{
         cursor: pointer;
         margin-left: 9%;
     }
+    .img-picture{
+        display: flex;
+        flex-direction: column;
+    }
     .img-fluid .hand {
         max-width: 768px;
         height: 45%;
@@ -270,7 +274,7 @@ body{
     
 }
 /* image de coeur media queries taille min 991px */
-@media screen and (min-width:991px)and(max-width:1000px) {
+@media screen and (min-width:991px)and(max-width:1400px) {
     .hearth{
         width: 50%;
         height: 50%;
@@ -278,8 +282,8 @@ body{
     }
 }
 .hearth{
-    width: 15vw;
-    height: 28vh;
+    width: 14%;
+    height: 14%;
     border-radius: 70%;
     position: absolute;
     bottom: 2%;
