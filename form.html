@@ -48,7 +48,10 @@
 <body>
     <form action="#" id="form-selector">
         <header class="header">
-            <a title="retour au menu" href="index.html"> <h1 class="title-form">Formulaire d'adhesion</h1></a>
+            <a title="retour au menu" href="index.html">
+                <h1 class="title-form">Formulaire d'adhesion</h1>
+            </a>
+            <!-- situation -->
             <div class="box">
                 <label class="lab" for="form-select">Choisissez une situation :</label>
                 <div class="select">
@@ -57,13 +60,14 @@
                         <option class="selected" value="Option 2">Je suis sans emploi</option>
                         <option class="selected" value="Option 3">Je suis étudiant</option>
                     </select>
+                    <!-- taux du bien-être -->
                     <div class="emotion">
                         <div class="para-father">
                             <p class="para-rate">A quel taux estimez vous votre bien-etre actuellement ?</p>
                         </div>
                         <div class="div-inp">
 
-                            <label for="percentage-1"> &#128555  <span class="one-p">Entre 0%-25%</span></label>
+                            <label for="percentage-1"> &#128555 <span class="one-p">Entre 0%-25%</span></label>
                             <input type="radio" name="percentage" class="percentage" id="percentage-1" checked>
 
                             <label for="percentage-2">&#128555 <span class="two-p">Entre 25%-50%</span></label>
@@ -77,6 +81,36 @@
                 </div>
             </div>
         </header>
+        <section>
+            <!-- objectif -->
+            <form action="post">
+                <div class="area">
+                    <p id="objectif" for="lab-area">Decrivez en quelques lignes vos objectifs :</p>
+                    <textarea name="lab-area" id="lab-area" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <!-- contact -->
+                    <section id="contact">
+                        <div class="contact-header">
+                            <h1 class="contact">CONTACT</h1>
+                        </div>
+                        <article class="lab-name">
+                            
+
+                            <form action="" method="post" class="contactform">
+                                <p class="input_wrapper"><input type="text" name="contact_nom" value=""
+                                        id="contact_nom"><label for="contact_nom">NAME</label></p>
+                                <p class="input_wrapper"><input type="text" name="contact_email" value=""
+                                        id="contact_email"><label for="contact_email">EMAIL</label></p>
+                                <p class="input_wrapper"><input type="text" name="contact_sujet" value=""
+                                        id="contact_sujet"><label for="contact_sujet">SUBJECT</label></p>
+                                <p class="submit_wrapper"><input type="submit" value="ENVOYER"></p>
+                            </form>
+                        </article>
+                    </section>
+                </div>
+            </form>
+        </section>
     </form>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
