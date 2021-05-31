@@ -98,11 +98,13 @@ input{
 #lab-area{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background:linear-gradient(135deg,rgb(189, 74, 74),rgb(206, 123, 123),rgb(143, 56, 56));
     color: white;
     font-family: 'Times New Roman', Times, serif;
     margin: 4%;
     padding:6% ;
+    resize: horizontal;
 } 
 #objectif{
     color: white;
@@ -121,13 +123,15 @@ input{
 } 
 
 #contact-nom,#contact-email,#contact-prenom{
+    width: 70%;
+    height: 50%;
+    margin-left: 14%;
     border-radius: 50px;
     background: linear-gradient(135deg,rgb(11, 76, 129),rgb(90, 138, 177),rgb(14, 48, 68));
     color: white;
     box-shadow:1px 4px 1px black;
     font-size: 16px;
     font-family: "roboto_light",Arial,sans-serif;
-    margin: 10%;
     padding: 7%;
 } 
 .text-white{
@@ -140,5 +144,14 @@ input{
 }
 ::placeholder{
     text-align: center;
-    color: rgb(19, 230, 72);
+    color: rgb(255, 255, 255);
 }
+#button{
+    width: 70%;
+    height: 50%;
+    margin-left: 14%;
+    border-radius: 50px;
+    background: linear-gradient(135deg,rgb(11, 76, 129),rgb(90, 138, 177),rgb(14, 48, 68));
+    color: white;
+}
+
