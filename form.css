@@ -51,9 +51,9 @@ input,#objectif
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(135deg,rgb(197, 195, 215),rgb(60, 118, 133),rgb(188, 192, 204));
     font-style: italic;
-    text-align: center;
-    
+    text-align: center;  
 }
+
 .selected{
     display:flex;
     flex-direction:column;
@@ -118,4 +118,27 @@ input{
     margin: 10%;
     padding: 4%;
     border-radius: 50px;
-}  
+} 
+
+#contact-nom,#contact-email,#contact-prenom{
+    border-radius: 50px;
+    background: linear-gradient(135deg,rgb(11, 76, 129),rgb(90, 138, 177),rgb(14, 48, 68));
+    color: white;
+    box-shadow:1px 4px 1px black;
+    font-size: 16px;
+    font-family: "roboto_light",Arial,sans-serif;
+    margin: 10%;
+    padding: 7%;
+} 
+.text-white{
+    margin-left: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-shadow: 1px 4px 1px black;
+    text-shadow: 2px 2px 13px deepskyblue;
+
+}
+::placeholder{
+    text-align: center;
+    color: rgb(19, 230, 72);
+}
