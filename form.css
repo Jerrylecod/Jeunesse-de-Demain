@@ -3,7 +3,7 @@ body{
 }
 .header,.title-form,.box,.lab,.emotion,
 input,#objectif
-#contact,.contact{ 
+#contact,.contact,#percentage{ 
     margin: 5%;
     padding: 5%;
 }
@@ -12,6 +12,9 @@ input,#objectif
     color: white;
     text-shadow: 1px 4px 1px black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vh;
+    padding: 2%;
+    margin: 10%;
 }
 .title-form,#form-select{
     color: white;
@@ -42,7 +45,8 @@ input,#objectif
     text-transform: uppercase;
     text-align: center;
     color: white;
-    text-shadow: 0px 2px 11px black;    
+    text-shadow: 0px 2px 11px black;
+    font-size: 3vh;
 }
 #form-select{
     display: flex;
@@ -52,15 +56,16 @@ input,#objectif
     background: linear-gradient(135deg,rgb(197, 195, 215),rgb(60, 118, 133),rgb(188, 192, 204));
     font-style: italic;
     text-align: center;  
+    border-radius: 60%;
 }
 
 .selected{
     display:flex;
     flex-direction:column;
-    color: blue;
-    text-shadow: 1px 1px 1px white;
+    color: rgb(237, 234, 15);
+    text-shadow: 1px 1px 1px #0c0c0c;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: fantasy;
     background: linear-gradient(135deg,rgb(90, 152, 211),rgb(58, 115, 168),rgb(16, 190, 196));
 }
 .emotion{
@@ -68,13 +73,29 @@ input,#objectif
     flex-direction:column;
 }
 .para-father{
-    color: white;
-    text-shadow: 1px 3px 1px #1e46a4;
+    display: grid;
+    background-color: red;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 26%;
+    box-shadow: 1px 6px 1px black;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+
+.para-rate{
+    grid-column: 1/4;
+}
+.div-inp{
+    background: linear-gradient(135deg,#65e31e,#c68d25,#e80d0d);
+    display: grid;
+    padding: 6%;
+    margin: 5%;
+    border-radius: 50%;
+    box-shadow: 1px 9px 1px black;
 }
 input{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    grid-column: 3/3;
 }
 .one-p{
     color: green;
@@ -96,21 +117,24 @@ input{
     padding: 6%;
 }
 #lab-area{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     background:linear-gradient(135deg,rgb(189, 74, 74),rgb(206, 123, 123),rgb(143, 56, 56));
     color: white;
     font-family: 'Times New Roman', Times, serif;
     margin: 4%;
     padding:6% ;
     resize: horizontal;
+    border-radius: 20%;
+    box-shadow: 1px 0px 2px 1px #edf2f4;
 } 
+.area{
+    display: grid;
+}
 #objectif{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
     text-align: center;
+    font-size: 3vh;
 }
 #contact{
         background: linear-gradient(135deg,#ca1f1f,#b97e7e,#c71414);
