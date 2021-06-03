@@ -37,8 +37,11 @@ body{
         visibility: collapse;
     }
     
+    
 
 }
+
+
 /* position du bouton */
 #drop{
     display: flex;
@@ -47,7 +50,8 @@ body{
     left: -40px;
 }
 .dropdown-item {
-    display: block;
+    display:flex;
+    flex: 2 2 100px;
     width: 100%;
     clear: both;
     font-weight: 400;
@@ -331,8 +335,15 @@ body{
     
     
 }
+/* affichage de la navbar a partir de 570px */
+@media screen and (min-width: 570px) and (max-width: 768px){
+    .dropdown-menu{
+        display: flex;
+    }
+}
 /* logo d'entreprise caché a partir de 768px => 1800px */
 @media screen and (min-width: 768px) and (max-width:1280px) {
+    
     .hand{
         width: 50%;
         height: 27%;
