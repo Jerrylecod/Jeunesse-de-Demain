@@ -57,6 +57,7 @@ input,#objectif
     font-style: italic;
     text-align: center;  
     border-radius: 60%;
+    box-shadow: 9px 5px 10px black;
 }
 
 .selected{
@@ -85,6 +86,7 @@ input,#objectif
 
 .para-rate{
     grid-column: 1/4;
+    text-align: center;
 }
 .div-inp{
     background: linear-gradient(135deg,#65e31e,#c68d25,#e80d0d);
@@ -178,4 +180,5 @@ input{
     background: linear-gradient(135deg,rgb(11, 76, 129),rgb(90, 138, 177),rgb(14, 48, 68));
     color: white;
 }
+
 
