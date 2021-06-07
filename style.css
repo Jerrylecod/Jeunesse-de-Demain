@@ -184,6 +184,7 @@ body{
 }
 /* media queries taille mobile */
 @media screen and (min-width: 320px) and (max-width: 768px){
+
     .dropdown-item{
         background: linear-gradient(135deg,rgb(36, 71, 168),rgb(56, 74, 89),rgb(0, 174, 255));
     }
@@ -277,6 +278,35 @@ body{
     .img-fluid .handle{
         border-radius:20px;
     }
+    .give-op{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        flex-basis: max-content;
+        margin: 10%;
+    }
+    .op-title{
+        text-align: center;
+        color: white;
+        margin: 2%;
+        padding: 5%;
+        background: linear-gradient(135deg,rgb(52, 153, 164),rgb(72, 72, 146),rgb(37, 126, 153));
+        border-radius: 4%;
+    }
+    #opinion{
+        background:linear-gradient(135deg,rgb(77, 77, 175),rgb(109, 109, 212),rgb(29, 29, 170));
+        border-radius:20%;
+    }
+    .lab-op{
+        display: flex;
+        padding: 5%;
+        border: 1px solid darkslateblue;
+        margin: 2%;
+        Border-radius: 36%;
+        background: linear-gradient(135deg,#8686b2,#424283,#4f4fa7);
+        color: aliceblue;
+        text-shadow: 1px 1px 1px black;
+    }
     
 }
 /* image de coeur media queries taille min 991px */
@@ -365,6 +395,7 @@ body{
         background: linear-gradient(135deg,rgb(91, 40, 93),rgb(56, 74, 89),rgb(0, 174, 255));
         justify-content: space-around;
         text-shadow: 1px 1px 1px black;
+        border: 1px solid floralwhite;
     }
     .hand{
         width: 50%;

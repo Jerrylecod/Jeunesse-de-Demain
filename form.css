@@ -20,6 +20,20 @@ input,#objectif
     color: white;
     text-shadow: 1px 1px 1px black;
 }
+#form-select{
+    
+    animation: hightlight 6s ease-in-out 2s alternate infinite ;
+}
+@keyframes hightlight {
+    from {
+        color: rgb(251, 251, 251);
+        text-shadow: 1px 1px 1px black;
+    }
+    to {
+        color: red;
+        text-shadow: 1px 1px 1px rgb(3, 3, 3);
+    }
+} 
 .header{
     background: linear-gradient(135deg,rgb(32, 155, 177),rgb(60, 161, 192),rgb(48, 109, 138));
     margin: 5%;
