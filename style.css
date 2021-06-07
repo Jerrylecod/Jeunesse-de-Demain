@@ -58,12 +58,12 @@ body{
     text-align: end;
     text-decoration: none;
     white-space: pre;
-    background: linear-gradient(135deg,rgb(102, 128, 155),rgb(17, 82, 136),rgb(0, 174, 255));
+    background: linear-gradient(135deg,rgb(91, 40, 93),rgb(56, 74, 89),rgb(0, 174, 255));
     border: 0;
     color: rgb(245, 243, 243);
     text-shadow: 1px 1px 1px black;
     padding: 20px;
-    font-family: 'Courgette', cursive;
+    font-family: 'Courgette', cursive; 
 }
 /* stylisation de l'icone du menu */
 .btn,.custom{
@@ -184,6 +184,9 @@ body{
 }
 /* media queries taille mobile */
 @media screen and (min-width: 320px) and (max-width: 768px){
+    .dropdown-item{
+        background: linear-gradient(135deg,rgb(36, 71, 168),rgb(56, 74, 89),rgb(0, 174, 255));
+    }
     .hearth{
         visibility:hidden;
     }
@@ -226,7 +229,6 @@ body{
         font-size: 1em;
         text-shadow: 1px 1px 1px #232322;
         padding: 5%;
-        background: linear-gradient(135deg,#0e99ec,#292bcc,#2dc1ac);
         border-radius: 50%;
     }
     #card-logo {
@@ -332,18 +334,38 @@ body{
     #card-logo {
         background:linear-gradient(135deg,rgb(14, 149, 212),rgb(78, 117, 149),rgb(37, 74, 117));
     }
-    
-    
-}
-/* affichage de la navbar a partir de 570px */
-@media screen and (min-width: 570px) and (max-width: 768px){
-    .dropdown-menu{
-        display: flex;
+    .dropdown-item {
+        background: linear-gradient(135deg,rgb(91, 40, 93),rgb(56, 74, 89),rgb(0, 174, 255));
     }
-}
-/* logo d'entreprise caché a partir de 768px => 1800px */
-@media screen and (min-width: 768px) and (max-width:1280px) {
     
+    
+}
+/* affichage de la navbar a partir de 1800px*/
+@media screen and (min-width: 570px) and (max-width: 1800px){
+    #dropping{
+        display: flex;
+        align-items: space-between;
+        position: relative;
+        background:linear-gradient(135deg,rgb(134, 134, 177),rgb(116, 116, 209),rgb(37, 37, 194));
+        box-shadow: 1px 1px 23px 1px black;
+    }
+    
+    
+}    
+/* logo d'entreprise caché a partir de 768px => 1800px */
+@media screen and (min-width: 570px) and (max-width:1280px) {
+    #dropping {
+        display: flex;
+        position: relative;
+        /* background: linear-gradient(135deg,rgb(41, 41, 218),rgb(134, 134, 223),rgb(62, 62, 138)); */
+        box-shadow: 1px 1px 23px 1px black;
+        flex-wrap: wrap;
+    }
+    .dropdown-item {
+        background: linear-gradient(135deg,rgb(91, 40, 93),rgb(56, 74, 89),rgb(0, 174, 255));
+        justify-content: space-around;
+        text-shadow: 1px 1px 1px black;
+    }
     .hand{
         width: 50%;
         height: 27%;
