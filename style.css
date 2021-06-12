@@ -182,6 +182,14 @@ body{
     height: auto;
     width: -moz-available;
 }
+.give-op{
+    display: grid;
+    grid-template-rows: auto;
+    margin: 8%;
+    
+    
+
+}
 /* media queries taille mobile */
 @media screen and (min-width: 320px) and (max-width: 768px){
 
@@ -278,13 +286,13 @@ body{
     .img-fluid .handle{
         border-radius:20px;
     }
-    .give-op{
+    /* .give-op{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap-reverse;
         flex-basis: max-content;
         margin: 10%;
-    }
+    } */
     .op-title{
         text-align: center;
         color: white;
