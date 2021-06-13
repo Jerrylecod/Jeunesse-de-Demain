@@ -325,8 +325,13 @@ body{
         max-width: 100%;
         background: linear-gradient(135deg,rgb(77, 77, 175),rgb(109, 109, 212),rgb(29, 29, 170));
         border-radius: 3%;
-        margin: 12px 2%;
+        margin: 12px 10%;
         padding: 5%;
+    }
+    @media screen and (min-width:360px) and (max-width:499px) {
+        #opinion{
+            margin: 12px 2px;
+        }
     }
     .lab-op{
         margin: 0 39%;
@@ -527,6 +532,11 @@ body{
         border-radius: 20px;
     }
     
+}
+@media  screen and (min-width:500px) and (max-width:700px) {
+    #opinion {
+        margin:12% 15%;
+    }
 }
 
 
