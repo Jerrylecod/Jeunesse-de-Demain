@@ -186,10 +186,36 @@ body{
     display: grid;
     grid-template-rows: auto;
     margin: 8%;
-    
-    
-
 }
+@media screen and (min-width:768px)and (max-width:1800px){
+    .form-id{
+        display: grid;
+    
+    }
+    .lab-op{
+        text-align: center;
+    }
+    #opinion{
+        max-width: 100%;
+        background: linear-gradient(135deg,rgb(77, 77, 175),rgb(109, 109, 212),rgb(29, 29, 170));
+        border-radius: 0%;
+        margin: 12px 2%;
+    }
+    .op-title{
+        text-align: center;
+        color: #050212;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+    }
+    .lab-op{
+        color: rgb(3, 3, 3);
+        text-shadow: 1px 1px 1px white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+    }
+    
+}
+
 /* media queries taille mobile */
 @media screen and (min-width: 320px) and (max-width: 768px){
 
@@ -286,13 +312,7 @@ body{
     .img-fluid .handle{
         border-radius:20px;
     }
-    /* .give-op{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap-reverse;
-        flex-basis: max-content;
-        margin: 10%;
-    } */
+    
     .op-title{
         text-align: center;
         color: white;
@@ -302,19 +322,27 @@ body{
         border-radius: 4%;
     }
     #opinion{
-        background:linear-gradient(135deg,rgb(77, 77, 175),rgb(109, 109, 212),rgb(29, 29, 170));
-        border-radius:20%;
+        max-width: 100%;
+        background: linear-gradient(135deg,rgb(77, 77, 175),rgb(109, 109, 212),rgb(29, 29, 170));
+        border-radius: 3%;
+        margin: 12px 2%;
+        padding: 5%;
     }
     .lab-op{
-        display: flex;
+        margin: 0 39%;
+        background-color: lightskyblue;
+        border-radius: 45%;
+        box-shadow: 1px 4px 1px aliceblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 5%;
-        border: 1px solid darkslateblue;
-        margin: 2%;
-        Border-radius: 36%;
-        background: linear-gradient(135deg,#8686b2,#424283,#4f4fa7);
-        color: aliceblue;
-        text-shadow: 1px 1px 1px black;
+        margin: 6% 18%;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px 1px floralwhite;
     }
+    
+
+    
+    
     
 }
 /* image de coeur media queries taille min 991px */
