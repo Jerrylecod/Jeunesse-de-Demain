@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="formulary.css">
+</head>
+<body>
+    <header class="container">
+        <!-- formulaire de renseignement -->
+        <form class="item-container" action="post">
+            <div class="item-one">
+                <!-- Titre du formulaire  -->
+                <h1 class="item-title">
+                    FORMULAIRE D'ADHESION
+                </h1>
+            </div>
+            <!-- ChampS de saisie -->
+            <div class="item-two">
+                    <label  for="birthday">Date de naissance :</label>
+                    <input  type="date" name="date" id="birthday">
+
+                    <label  for="lastname">Nom de Famille :</label>
+                    <input  type="text" name="lastname" id="lastname">
+
+                    <label  for="name">Prenom :</label>
+                    <input  type="text" name="name" id="name">
+
+                    <label for="mail">adresse email :</label>
+                    <input type="email" name="mail" id="mail">
+
+                    <label for="phone">Telephone :</label>
+                    <input type="tel" name="phone" id="phone">
+
+                    <p class="check-choice">Veuillez cocher la case corespondante :</p>
+                    <div class="radio-gender">
+                    <!-- Choix du genre -->                   
+                        <input type="radio" name="sex" id="sex">
+                        <label for="sex">homme</label>
+
+                        <input type="radio" name="sex" id="sex">
+                        <label for="sex">femme</label>
+                </div class="item-four">
+                <p class="check-choice">Cochez les cases vous correspondant : </p>
+                <div class="item-three">
+                    <!-- Questionnaire de personnalité -->
+                    
+                    <input type="checkbox" name="personality" id="personality">
+                    <label for="personality">calme</label>
+                    <input type="checkbox" name="personality" id="personality">
+                    <label for="personality">nerveux</label>
+                    <input type="checkbox" name="personality" id="personality">
+                    <label for="personality">reflechi</label>
+                    <input type="checkbox" name="personality" id="personality">
+                    <label for="personality">spontané</label>
+                    <input type="checkbox" name="personality" id="personality">
+                    <label for="personality">innovant</label>
+                    <input type="checkbox" name="personality" id="personality">
+                    <label for="personality"></label>
+                </div>
+                <p class="check-choice">Commentaire</p>
+                <textarea name="commentary" id="commentary" cols="30" rows="10"></textarea>
+            </div>
+        </form>
+
+    </header>
+</body>
+</html>
