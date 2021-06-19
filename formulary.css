@@ -1,0 +1,42 @@
+@media screen and (min-width:320px) and (max-width:768px) {
+    /* Mise en page du formulaire de renseignement (titre)*/
+    .item-one{
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        margin: 5%;
+    }
+    /* Disposition du champs de saisie */
+    .item-two{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 5%;
+    }
+    /* Alignement au centre des elements */
+    .check-choice,.item-title{
+        text-align: center;
+    }
+    /* Contour d'elements */
+    .radio-gender,.item-three{
+        border: 1px solid black;
+        padding: 5%;
+    }
+    /* Positionnement des bouton radio */
+    .radio-gender{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 5%;
+        border-radius: 20px;
+    }
+    /* Checkbox designant la personnalité */
+    .item-three{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 50%;
+    }
+    
+    
+};   
