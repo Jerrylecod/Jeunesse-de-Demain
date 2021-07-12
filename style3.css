@@ -1,179 +1,181 @@
-                                                        body {
-                                                            display: grid;
-                                                            grid-template-rows: repeat(1fr);
-                                                            grid-template-columns: repeat(1fr);
-                                                            gap: 20px;
-                                                            background: linear-gradient(120deg, white, blue, grey);
-                                                        }
-                                                        
-                                                        header {
-                                                            grid-column-start: 1;
-                                                            grid-column-end: 2;
-                                                        }
-                                                        
-                                                        section {
-                                                            grid-column-start: 1;
-                                                            grid-column-end: 2;
-                                                            border: 2px solid white;
-                                                            margin: 2%;
-                                                            padding: 2%;
-                                                            box-shadow: -2px -5px 15px #04008b;
-                                                        }
-                                                        
-                                                        h1 {
-                                                            color: rgb(255, 255, 255);
-                                                            font-family: 'Times New Roman', Times, serif;
-                                                            text-align: center;
-                                                        }
-                                                        
-                                                        h6 {
-                                                            color: rgb(112, 201, 243);
-                                                            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                                                            text-align: center;
-                                                        }
-                                                        
-                                                        p {
-                                                            color: white;
-                                                            text-shadow: 1px 1px 1px black;
-                                                            font-family: 'Times New Roman', Times, serif;
-                                                        }
-                                                        
-                                                        .think-child {
-                                                            text-shadow: 1px 1px 1px rgb(15, 0, 0);
-                                                            color: rgb(40, 128, 181);
-                                                            font-size: 20px;
-                                                        }
-                                                        
-                                                        nav {
-                                                            display: grid;
-                                                        }
-                                                        
-                                                        .btn {
-                                                            height: 50px;
-                                                            color: white;
-                                                        }
-                                                        
-                                                        .card {
-                                                            position: relative;
-                                                            display: flex;
-                                                            flex-direction: column;
-                                                            min-width: 0;
-                                                            word-wrap: break-word;
-                                                            background: linear-gradient(135deg, rgb(28, 116, 156), rgb(136, 124, 124), rgb(243, 238, 238));
-                                                            background-clip: border-box;
-                                                            border: 1px solid rgba(0, 0, 0, .125);
-                                                            border-radius: .25rem;
-                                                            margin: 5%;
-                                                            padding: 2%;
-                                                            color: white;
-                                                        }
-                                                        
-                                                        .img-fluid {
-                                                            max-width: 100%;
-                                                            height: auto;
-                                                            border-radius: 20px;
-                                                            border-radius: 20%;
-                                                        }
-                                                        
-                                                        h2 {
-                                                            text-align: center;
-                                                            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                                                            padding: 5%;
-                                                            font-size: small;
-                                                            color: aliceblue;
-                                                            text-shadow: 3px 1px 21px rgb(5 5 5);
-                                                            font-size: 1rem;
-                                                        }
-                                                        
-                                                        .div-hearth {
-                                                            display: flex;
-                                                            margin: 2%;
-                                                            flex-direction: column;
-                                                            flex-wrap: wrap;
-                                                        }
-                                                        
-                                                        img {
-                                                            height: 50%;
-                                                            width: 100%;
-                                                        }
-                                                        
-                                                        .red-hearth {
-                                                            height: 50%;
-                                                            width: 100%;
-                                                            border-radius: 56%;
-                                                            box-shadow: 2px 10px 3px black;
-                                                        }
-                                                        
-                                                        .img-picture {
-                                                            display: flex;
-                                                            flex-direction: column;
-                                                            margin: 12%;
-                                                        }
-                                                        
-                                                        #dropping>a {
-                                                            color: rgb(34, 157, 238);
-                                                            background: linear-gradient( 135deg, rgb(157 166 171), rgb(229 236 236), rgb(248, 248, 248));
-                                                        }
-                                                        
-                                                        .btn {
-                                                            height: 70px;
-                                                        }
-                                                        
-                                                        .give-op {
-                                                            display: flex;
-                                                            flex-direction: column;
-                                                        }
-                                                        
-                                                        #opinion {
-                                                            flex: 1 200px;
-                                                        }
-                                                        
-                                                        .form-id {
-                                                            display: flex;
-                                                            flex-direction: column;
-                                                            align-items: center;
-                                                        }
-                                                        
-                                                        .lab-op {
-                                                            text-align: center;
-                                                            margin: 2%;
-                                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                                            font-style: oblique;
-                                                            color: aliceblue;
-                                                        }
-                                                        
-                                                        textarea {
-                                                            justify-content: center;
-                                                            padding: 5%;
-                                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                                            box-shadow: 0px 4px 1px 5px #6f96ba;
-                                                            text-shadow: 1px 1px 1px black;
-                                                            color: rgb(187, 191, 202);
-                                                            text-transform: uppercase;
-                                                            background: linear-gradient( 135deg, #1465dc, #abbfce, #6982af);
-                                                            margin: 2%;
-                                                        }
-                                                        
-                                                        summary {
-                                                            color: aliceblue;
-                                                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                                                        }
-                                                        
-                                                        @media screen and (min-width: 450px)and (max-width: 562px) {
-                                                            header {
-                                                                grid-column-start: 1;
-                                                                grid-column-end: 3;
-                                                                margin: 2%;
-                                                                padding: 2%;
-                                                            }
-                                                            section {
-                                                                grid-column-start: 1;
-                                                                grid-column-end: 3;
-                                                                border: 1px solid white;
-                                                                margin: 2%;
-                                                                padding: 2%;
-                                                            }
-                                                            .help {
-                                                                text-align: center;
-                                                            }
-                                                        }
+body {
+    display: grid;
+    grid-template-rows: repeat(1fr);
+    grid-template-columns: repeat(1fr);
+    gap: 20px;
+    background: linear-gradient(120deg, white, blue, grey);
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+section {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 2px solid white;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: -2px -5px 15px #04008b;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h6 {
+    color: rgb(112, 201, 243);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.think-child {
+    text-shadow: 1px 1px 1px rgb(15, 0, 0);
+    color: rgb(40, 128, 181);
+    font-size: 20px;
+}
+
+nav {
+    display: grid;
+}
+
+.btn {
+    height: 50px;
+    color: white;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: linear-gradient(135deg, rgb(28, 116, 156), rgb(136, 124, 124), rgb(243, 238, 238));
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin: 5%;
+    padding: 2%;
+    color: white;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border-radius: 20%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5%;
+    font-size: small;
+    color: aliceblue;
+    text-shadow: 3px 1px 21px rgb(5 5 5);
+    font-size: 1rem;
+}
+
+.div-hearth {
+    display: flex;
+    margin: 2%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 50%;
+    width: 100%;
+}
+
+.red-hearth {
+    height: 50%;
+    width: 100%;
+    border-radius: 56%;
+    box-shadow: 2px 10px 3px black;
+    padding: 20%;
+}
+
+.img-picture {
+    display: flex;
+    flex-direction: column;
+    margin: 12%;
+}
+
+#dropping>a {
+    color: rgb(34, 157, 238);
+    background: linear-gradient( 135deg, rgb(157 166 171), rgb(229 236 236), rgb(248, 248, 248));
+}
+
+.btn {
+    height: 70px;
+}
+
+.give-op {
+    display: flex;
+    flex-direction: column;
+}
+
+#opinion {
+    flex: 1 200px;
+}
+
+.form-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lab-op {
+    text-align: center;
+    margin: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: aliceblue;
+}
+
+textarea {
+    justify-content: center;
+    padding: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 4px 1px 5px #6f96ba;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(187, 191, 202);
+    text-transform: uppercase;
+    background: linear-gradient( 135deg, #1465dc, #abbfce, #6982af);
+    margin: 2%;
+}
+
+summary {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 450px)and (max-width: 562px) {
+    header {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 2%;
+        padding: 2%;
+    }
+    section {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        border: 1px solid white;
+        margin: 2%;
+        padding: 2%;
+    }
+    .help {
+        text-align: center;
+    }
+}
